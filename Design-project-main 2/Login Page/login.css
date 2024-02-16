@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    backgrou
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow:hidden;
+}
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 100%;
+    z-index:-100;
+    object-fit: cover;
+
+  }
+.main-box{
+    position:absolute;
+    bottom:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cacbba;
+    border-color: 2px solid rgba(255,255,255,.2);
+    padding: 30px 40px;
+    width:420px;
+    background:transparent;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    box-sizing: border-box;
+    padding:0;
+}
+.main-box h1{
+    font-weight: bold;
+    text-align:center;
+    font-size: 36px;
+    color:rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+.main-box input{
+    color: #333;
+    font-size: 16px;
+    padding: 10px 20px;
+    width: 100%;
+    padding: 10px 20px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    transition: .3s;
+}
+.main-box input:focus{
+    border-color: #ff8400;
+}
+.main-box button{
+    background-color: #ff8400;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+.main-box a{
+    color: #f2f2f3;
+    text-decoration: none;
+    font-size: 14px;
+    transition: .3s;
+}
+.main-box a:hover{
+    color: #ff8400;
+    opacity: 5px;
+    cursor: pointer;
+}
+#check-box{
+    margin-right: 10px;
+    cursor: pointer;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.main-box .forgot-password{
+    text-align: right;
+    font-size: 14px;
+    color: #edecf7;
+    margin-bottom: 20px;
+}
+
+.text{
+    color:#edecf7;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-top: 20px;
+
+}
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:100%;
+    height:50px;
+
+}
+button:hover{
+    background-color: #fefeff;
+    color: #050404;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+}
